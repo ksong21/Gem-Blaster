@@ -1,0 +1,36 @@
+body {
+    overflow: hidden;
+    background-color: #111111;
+    cursor: crosshair;
+}
+video {
+    width: 100%;
+    position: fixed;
+    margin-left: -8px;
+    z-index: -1;
+    bottom: 0;
+}
+#score {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 5vh;
+    color: white;
+    background-color: orange;
+    left: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+}
+#end {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 5vh;
+    color: white;
+    background-color: red;
+    left: 20px;
+    top: 8vh;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+}
